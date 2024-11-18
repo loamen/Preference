@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:a="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        a:fragment="com.loamen.preference.demo.PreferenceFragmentMessages"
+        a:icon="@drawable/messages"
+        a:key="messages_header"
+        a:title="@string/messages_header" />
+
+    <com.loamen.preference.BasicPreference
+        a:fragment="com.loamen.preference.demo.PreferenceFragmentSync"
+        a:icon="@drawable/sync"
+        a:key="sync_header"
+        a:title="@string/sync_header" />
+
+    <com.loamen.preference.SliderPreference
+        a:key="SliderPreference"
+        a:title="Slider preference title"
+        a:summary="Slider preference summary"
+        a:icon="@drawable/sync"
+        a:seekBarIncrement="25"
+        a:showSeekBarValue="true"
+        a:iconSpaceReserved="false"
+        a:updatesContinuously="true"
+        android:valueFrom="100"
+        android:valueTo="400"
+        android:stepSize="25"
+        android:value="200"
+        a:labelBehavior="gone"
+        a:format="%.0f%%"
+        a:singleLineTitle="false"
+        />
+
+</PreferenceScreen>

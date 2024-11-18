@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BasicPreference">
+        <attr name="breadcrumb" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SliderPreference">
+        <attr name="format" format="string" />
+        <!-- Default style for slider preferences. -->
+        <attr name="sliderPreferenceStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="EnumListPreference">
+        <attr name="enumClassName" format="string" />
+    </declare-styleable>
+
+</resources>
