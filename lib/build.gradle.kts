@@ -74,7 +74,7 @@ publishing {
                 licenses {
                     license {
                         name = "GNU Lesser General Public License v3.0"
-                        url = "https://github.com/loamen/Preference/blob/main/LICENSE"
+                        url = "https://github.com/loamen/Preference/blob/master/LICENSE"
                     }
                 }
                 developers {
@@ -115,7 +115,7 @@ publishing {
 // signing.gnupg.passphrase=<key-password>
 signing {
     // Use installed GPG rather than built-in outdated version
-    useGpgCmd()
+//    useGpgCmd()
     // Sign all publications I guess
     sign(publishing.publications)
     //sign(publishing.publications["release"])
